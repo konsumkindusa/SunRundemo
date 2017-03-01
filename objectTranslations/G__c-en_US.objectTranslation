@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>G</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>G</value>
+    </caseValues>
+    <fields>
+        <label><!-- Gs Checkbox --></label>
+        <name>Gs_Checkbox__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

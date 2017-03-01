@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>JiraTestObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>JiraTestObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- CheckBoxDemo --></label>
+        <name>CheckBoxDemo__c</name>
+    </fields>
+    <fields>
+        <label><!-- PickListModDemo --></label>
+        <name>PickListModDemo__c</name>
+        <picklistValues>
+            <masterLabel>Value01</masterLabel>
+            <translation><!-- Value01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value02</masterLabel>
+            <translation><!-- Value02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value03</masterLabel>
+            <translation><!-- Value03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value04Modified</masterLabel>
+            <translation><!-- Value04Modified --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>BellasObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>BellasObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- PicklistDemoForBella --></label>
+        <name>PicklistDemoForBella__c</name>
+        <picklistValues>
+            <masterLabel>PickListValue01</masterLabel>
+            <translation><!-- PickListValue01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PickListValue02</masterLabel>
+            <translation><!-- PickListValue02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PickListValue03</masterLabel>
+            <translation><!-- PickListValue03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PickListValue04</masterLabel>
+            <translation><!-- PickListValue04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PickListValue05</masterLabel>
+            <translation><!-- PickListValue05 --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- BellasObjectRT --></label>
+        <name>BellasObjectRT</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
