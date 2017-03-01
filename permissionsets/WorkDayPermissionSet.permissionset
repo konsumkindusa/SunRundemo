@@ -8,6 +8,10 @@
         <application>standard__LightningSales</application>
         <visible>false</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sites</application>
+        <visible>false</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>HelloWorldTestClass</apexClass>
         <enabled>false</enabled>
@@ -40,5 +44,12 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>WorkDayPermissionSet</label>
-    <license>Chatter Free</license>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.Sales_Record</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabSettings>
+        <tab>Vehicle__c</tab>
+        <visibility>None</visibility>
+    </tabSettings>
 </PermissionSet>

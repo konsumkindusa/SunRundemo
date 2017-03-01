@@ -161,16 +161,19 @@
                 <value>
                     <fullName>Competitor A</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Competitor A</label>
                 </value>
                 <value>
                     <fullName>Competitor B</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Competitor B</label>
                 </value>
                 <value>
                     <fullName>Competitor C</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Competitor C</label>
                 </value>
             </valueSetDefinition>
@@ -191,16 +194,19 @@
                 <value>
                     <fullName>In progress</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>In progress</label>
                 </value>
                 <value>
                     <fullName>Yet to begin</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Yet to begin</label>
                 </value>
                 <value>
                     <fullName>Completed</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Completed</label>
                 </value>
             </valueSetDefinition>
@@ -417,36 +423,6 @@
         <active>true</active>
         <businessProcess>Sales</businessProcess>
         <label>Sales Record</label>
-        <picklistValues>
-            <picklist>DB_Competitor__c</picklist>
-            <values>
-                <fullName>Competitor A</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Competitor B</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Competitor C</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>DeliveryInstallationStatus__c</picklist>
-            <values>
-                <fullName>Completed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>In progress</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Yet to begin</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>ForecastCategoryName</picklist>
             <values>

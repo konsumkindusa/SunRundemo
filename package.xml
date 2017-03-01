@@ -160,6 +160,7 @@
         <members>Position__c.Travel_Required__c</members>
         <members>Position__c.Type__c</members>
         <members>Review__c.Job_Application__c</members>
+        <members>SunRun_C__c.SunRunMasterDetailDtoC__c</members>
         <members>Trail__c.Description__c</members>
         <members>Trail__c.Distance__c</members>
         <members>Trail__c.Last_Inspection_Date__c</members>
@@ -676,6 +677,7 @@
         <members>GitEZCommitTest__c</members>
         <members>UAT_Test__c</members>
         <members>Workday__c</members>
+        <members>test__c</members>
         <name>SharingCriteriaRule</name>
     </types>
     <types>

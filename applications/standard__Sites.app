@@ -4,4 +4,8 @@
     <formFactors>Large</formFactors>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
+    <tab>Trail__c</tab>
+    <tab>Merchandize__c</tab>
+    <tab>Position__c</tab>
+    <tab>AutoRABIT_Demo__c</tab>
 </CustomApplication>

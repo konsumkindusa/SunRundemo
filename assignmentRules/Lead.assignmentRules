@@ -4,22 +4,28 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>simon.w@autorabit.trailhead</assignedTo>
+            <assignedTo>simonjagusch@icloud.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>equals</operation>
                 <value>US,USA,United States,United States of America</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>simon.w@autorabit.trailhead</assignedTo>
+            <assignedTo>simonjagusch@icloud.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>notEqual</operation>
                 <value>US,USA,United States,United States of America</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>
