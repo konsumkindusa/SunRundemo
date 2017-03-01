@@ -14,6 +14,26 @@
         </ruleEntry>
     </escalationRule>
     <escalationRule>
+        <fullName>Silver Support</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <businessHours>Default</businessHours>
+            <businessHoursSource>Static</businessHoursSource>
+            <criteriaItems>
+                <field>Case.Status</field>
+                <operation>equals</operation>
+                <value>New</value>
+            </criteriaItems>
+            <escalationAction>
+                <minutesToEscalation>120</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+                <notifyTo>simonjagusch@icloud.com</notifyTo>
+                <notifyToTemplate>unfiled$public/SupportEscalatedCaseNotification</notifyToTemplate>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
+    </escalationRule>
+    <escalationRule>
         <fullName>Standard</fullName>
         <active>false</active>
         <ruleEntry>

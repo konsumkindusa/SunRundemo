@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
+        <fullName>Assign Booyah</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>simonjagusch@icloud.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.Subject</field>
+                <operation>contains</operation>
+                <value>Booyah</value>
+            </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
+            <template>unfiled$public/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Awesome Admin Assignment</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>simonjagusch@icloud.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Contact.Title</field>
+                <operation>equals</operation>
+                <value>Awesome Admin</value>
+            </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
+            <template>unfiled$public/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
@@ -21,6 +55,9 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>simon.w@autorabit.trailhead</assignedTo>
@@ -40,6 +77,9 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>simon.w@autorabit.trailhead</assignedTo>
@@ -59,6 +99,9 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>simon.w@autorabit.trailhead</assignedTo>
@@ -78,6 +121,9 @@
                 <operation>contains</operation>
                 <value>Customer</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>simon.w@autorabit.trailhead</assignedTo>
@@ -87,6 +133,9 @@
                 <operation>contains</operation>
                 <value>Partner</value>
             </criteriaItems>
+            <disableEscalationWhenModified>false</disableEscalationWhenModified>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <overrideExistingTeams>false</overrideExistingTeams>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

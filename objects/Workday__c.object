@@ -40,22 +40,47 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
+    <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>LaavGJ_Picklist__c</fullName>
+        <fullName>AwesomeSauce__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Select this field if you are awesome</description>
         <externalId>false</externalId>
-        <label>LaavGJ Picklist</label>
-        <required>false</required>
+        <inlineHelpText>Select this field if you are awesome</inlineHelpText>
+        <label>AwesomeSauce</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WorkdayAutoNumberField__c</fullName>
+        <description>AutoNumber Demo</description>
+        <displayFormat>WorkDay-{0000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>AutoNumberDemo</inlineHelpText>
+        <label>WorkdayAutoNumberField</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Workday__c</fullName>
+        <description>Select a day you prefer</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This will help you see how AutoRABIT commits and deploys picklists and their values.</inlineHelpText>
+        <label>Workday</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -63,44 +88,57 @@
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Value01</fullName>
+                    <fullName>WorkdayMon</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
-                    <label>Value01</label>
+                    <label>WorkdayMon</label>
                 </value>
                 <value>
-                    <fullName>Value02</fullName>
+                    <fullName>WorkdayTue</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
-                    <label>Value02</label>
+                    <label>WorkdayTue</label>
                 </value>
                 <value>
-                    <fullName>Value03</fullName>
+                    <fullName>WorkdayWed</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
-                    <label>Value03</label>
+                    <label>WorkdayWed</label>
                 </value>
                 <value>
-                    <fullName>Value04</fullName>
+                    <fullName>WorkdayThu</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
-                    <label>Value04</label>
+                    <label>WorkdayThu</label>
                 </value>
                 <value>
-                    <fullName>Value05</fullName>
+                    <fullName>WorkdayFri</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
-                    <label>Value05</label>
+                    <label>WorkdayFri</label>
+                </value>
+                <value>
+                    <fullName>OffSat</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OffSat</label>
+                </value>
+                <value>
+                    <fullName>OffSun</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OffSun</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <label>LaavGJ</label>
+    <label>Workday</label>
     <nameField>
-        <label>LaavGJ Name</label>
+        <label>Workday Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>LaavGJs</pluralLabel>
+    <pluralLabel>Workdays</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

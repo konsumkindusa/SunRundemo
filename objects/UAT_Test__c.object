@@ -51,57 +51,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>LaavGJ_Picklist__c</fullName>
-        <externalId>false</externalId>
-        <label>LaavGJ Picklist</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Value01</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value01</label>
-                </value>
-                <value>
-                    <fullName>Value02</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value02</label>
-                </value>
-                <value>
-                    <fullName>Value03</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value03</label>
-                </value>
-                <value>
-                    <fullName>Value04</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value04</label>
-                </value>
-                <value>
-                    <fullName>Value05</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>Value05</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>LaavGJ</label>
+    <label>UAT Test</label>
     <nameField>
-        <label>LaavGJ Name</label>
+        <label>UAT Test  Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>LaavGJs</pluralLabel>
+    <pluralLabel>UAT Tests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
