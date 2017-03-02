@@ -570,6 +570,7 @@
     <types>
         <members>Account.Update_Account_Information</members>
         <members>Case.NewChildCase</members>
+        <members>Case.SendEmail</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
         <members>FeedItem.NewTaskFromFeedItem</members>
